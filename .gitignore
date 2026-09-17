@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+env/
+
+# Environment variable files containing secret keys
+.env
+
+# Local runtime data (don't overwrite server watchlist with local test data)
+watchlist.json
+
+# Python cache files
+__pycache__/
+*.pyc
